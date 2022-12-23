@@ -20,8 +20,55 @@
 	height: 600px;
 	border:0px solid #000000;
 	box-sizing: border-box;
+	background-color: #ffffff00;
+	display: flex;
+	justify-content: center;
+}
+
+.container .login .login-con form {
+	width: 450px;
+	border: 0px solid #000000;
+	box-sizing: border-box;
 	background-color: #ffffff;
+	padding: 20px;
+}
+
+/*Å×ÀÌºí*/
+table, th, td {
+	border: 1px solid #cccccc;
+	border-collapse: collapse;
+}
+
+.container .login .login-con table {
+	width: 100%;
+}
+
+.container .login .login-con table tr th {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 20px 0;
+	box-sizing: border-box;
+	font-size: 30px;
+}
+
+.container .login .login-con table tr td {
+	border: 1px solid #cccccc;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+.container .login .login-con table tr:nth-child(8) td textarea {
+	width: 100%;
+	resize: none;
+}
+
+.container .login .login-con table tr.lastTr td {
+	width: 100%;
+	background-color: #555555;
 	text-align: center;
-	line-height: 600px;
-	font-size: 50px;
+}
+
+.container .login .login-con table tr.lastTr td input {
+	width: 100px;
+	padding: 5px 10px;
 }
